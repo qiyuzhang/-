@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CxfServer:war">
+    <output-path>$PROJECT_DIR$/cxfServer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CxfServer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cxfServer.war">
+      <element id="artifact" artifact-name="CxfServer:war exploded" />
+    </root>
+  </artifact>
+</component>
